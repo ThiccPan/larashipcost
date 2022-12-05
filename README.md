@@ -346,6 +346,257 @@ $value = $rajaOngkir
 | 248   | Kota Madiun          |
 | 249   | Kabupaten Magelang          |
 | 250   | Kota Magelang          |
+| 251	|	Kabupaten Magetan	
+| 252	|	Kabupaten Majalengka	         |
+| 253	|	Kabupaten Majene	         |
+| 254	|	Kota Makassar	         |
+| 255	|	Kabupaten Malang	         |
+| 256	|	Kota Malang	         |
+| 257	|	Kabupaten Malinau	         |
+| 258	|	Kabupaten Maluku Barat Daya	         |
+| 259	|	Kabupaten Maluku Tengah	         |
+| 260	|	Kabupaten Maluku Tenggara	         |
+| 261	|	Kabupaten Maluku Tenggara Barat	         |
+| 262	|	Kabupaten Mamasa	         |
+| 263	|	Kabupaten Mamberamo Raya	         |
+| 264	|	Kabupaten Mamberamo Tengah	         |
+| 265	|	Kabupaten Mamuju	         |
+| 266	|	Kabupaten Mamuju Utara	         |
+| 267	|	Kota Manado	         |
+| 268	|	Kabupaten Mandailing Natal	         |
+| 269	|	Kabupaten Manggarai	         |
+| 270	|	Kabupaten Manggarai Barat	         |
+| 271	|	Kabupaten Manggarai Timur	         |
+| 272	|	Kabupaten Manokwari	         |
+| 273	|	Kabupaten Manokwari Selatan	         |
+| 274	|	Kabupaten Mappi	         |
+| 275	|	Kabupaten Maros	         |
+| 276	|	Kota Mataram	         |
+| 277	|	Kabupaten Maybrat	         |
+| 278	|	Kota Medan	         |
+| 279	|	Kabupaten Melawi	         |
+| 280	|	Kabupaten Merangin	         |
+| 281	|	Kabupaten Merauke	         |
+| 282	|	Kabupaten Mesuji	         |
+| 283	|	Kota Metro	         |
+| 284	|	Kabupaten Mimika	         |
+| 285	|	Kabupaten Minahasa	         |
+| 286	|	Kabupaten Minahasa Selatan	         |
+| 287	|	Kabupaten Minahasa Tenggara	         |
+| 288	|	Kabupaten Minahasa Utara	         |
+| 289	|	Kabupaten Mojokerto	         |
+| 290	|	Kota Mojokerto	         |
+| 291	|	Kabupaten Morowali	         |
+| 292	|	Kabupaten Muara Enim	         |
+| 293	|	Kabupaten Muaro Jambi	         |
+| 294	|	Kabupaten Muko Muko	         |
+| 295	|	Kabupaten Muna	         |
+| 296	|	Kabupaten Murung Raya	         |
+| 297	|	Kabupaten Musi Banyuasin	         |
+| 298	|	Kabupaten Musi Rawas	         |
+| 299	|	Kabupaten Nabire	         |
+| 300	|	Kabupaten Nagan Raya	         |
+| 301	|	Kabupaten Nagekeo	         |
+| 302	|	Kabupaten Natuna	         |
+| 303	|	Kabupaten Nduga	         |
+| 304	|	Kabupaten Ngada	         |
+| 305	|	Kabupaten Nganjuk	         |
+| 306	|	Kabupaten Ngawi	         |
+| 307	|	Kabupaten Nias	         |
+| 308	|	Kabupaten Nias Barat	         |
+| 309	|	Kabupaten Nias Selatan	         |
+| 310	|	Kabupaten Nias Utara	         |
+| 311	|	Kabupaten Nunukan	         |
+| 312	|	Kabupaten Ogan Ilir	         |
+| 313	|	Kabupaten Ogan Komering Ilir	         |
+| 314	|	Kabupaten Ogan Komering Ulu	         |
+| 315	|	Kabupaten Ogan Komering Ulu Selatan	         |
+| 316	|	Kabupaten Ogan Komering Ulu Timur	         |
+| 317	|	Kabupaten Pacitan	         |
+| 318	|	Kota Padang	         |
+| 319	|	Kabupaten Padang Lawas	         |
+| 320	|	Kabupaten Padang Lawas Utara	         |
+| 321	|	Kota Padang Panjang	         |
+| 322	|	Kabupaten Padang Pariaman	         |
+| 323	|	Kota Padang Sidempuan	         |
+| 324	|	Kota Pagar Alam	         |
+| 325	|	Kabupaten Pakpak Bharat	         |
+| 326	|	Kota Palangka Raya	         |
+| 327	|	Kota Palembang	         |
+| 328	|	Kota Palopo	         |
+| 329	|	Kota Palu	         |
+| 330	|	Kabupaten Pamekasan	         |
+| 331	|	Kabupaten Pandeglang	         |
+| 332	|	Kabupaten Pangandaran	         |
+| 333	|	Kabupaten Pangkajene Kepulauan	         |
+| 334	|	Kota Pangkal Pinang	         |
+| 335	|	Kabupaten Paniai	         |
+| 336	|	Kota Parepare	         |
+| 337	|	Kota Pariaman	         |
+| 338	|	Kabupaten Parigi Moutong	         |
+| 339	|	Kabupaten Pasaman	         |
+| 340	|	Kabupaten Pasaman Barat	         |
+| 341	|	Kabupaten Paser	         |
+| 342	|	Kabupaten Pasuruan	         |
+| 343	|	Kota Pasuruan	         |
+| 344	|	Kabupaten Pati	         |
+| 345	|	Kota Payakumbuh	         |
+| 346	|	Kabupaten Pegunungan Arfak	         |
+| 347	|	Kabupaten Pegunungan Bintang	         |
+| 348	|	Kabupaten Pekalongan	         |
+| 349	|	Kota Pekalongan	         |
+| 350	|	Kota Pekanbaru	         |
+| 351	|	Kabupaten Pelalawan	         |
+| 352	|	Kabupaten Pemalang	         |
+| 353	|	Kota Pematang Siantar	         |
+| 354	|	Kabupaten Penajam Paser Utara	         |
+| 355	|	Kabupaten Pesawaran	         |
+| 356	|	Kabupaten Pesisir Barat	         |
+| 357	|	Kabupaten Pesisir Selatan	         |
+| 358	|	Kabupaten Pidie	         |
+| 359	|	Kabupaten Pidie Jaya	         |
+| 360	|	Kabupaten Pinrang	         |
+| 361	|	Kabupaten Pohuwato	         |
+| 362	|	Kabupaten Polewali Mandar	         |
+| 363	|	Kabupaten Ponorogo	         |
+| 364	|	Kabupaten Pontianak	         |
+| 365	|	Kota Pontianak	         |
+| 366	|	Kabupaten Poso	         |
+| 367	|	Kota Prabumulih	         |
+| 368	|	Kabupaten Pringsewu	         |
+| 369	|	Kabupaten Probolinggo	         |
+| 370	|	Kota Probolinggo	         |
+| 371	|	Kabupaten Pulang Pisau	         |
+| 372	|	Kabupaten Pulau Morotai	         |
+| 373	|	Kabupaten Puncak	         |
+| 374	|	Kabupaten Puncak Jaya	         |
+| 375	|	Kabupaten Purbalingga	         |
+| 376	|	Kabupaten Purwakarta	         |
+| 377	|	Kabupaten Purworejo	         |
+| 378	|	Kabupaten Raja Ampat	         |
+| 379	|	Kabupaten Rejang Lebong	         |
+| 380	|	Kabupaten Rembang	         |
+| 381	|	Kabupaten Rokan Hilir	         |
+| 382	|	Kabupaten Rokan Hulu	         |
+| 383	|	Kabupaten Rote Ndao	         |
+| 384	|	Kota Sabang	         |
+| 385	|	Kabupaten Sabu Raijua	         |
+| 386	|	Kota Salatiga	         |
+| 387	|	Kota Samarinda	         |
+| 388	|	Kabupaten Sambas	         |
+| 389	|	Kabupaten Samosir	         |
+| 390	|	Kabupaten Sampang	         |
+| 391	|	Kabupaten Sanggau	         |
+| 392	|	Kabupaten Sarmi	         |
+| 393	|	Kabupaten Sarolangun	         |
+| 394	|	Kota Sawah Lunto	         |
+| 395	|	Kabupaten Sekadau	         |
+| 396	|	Kabupaten Selayar  Kepulauan Selayar)	         |
+| 397	|	Kabupaten Seluma	         |
+| 398	|	Kabupaten Semarang	         |
+| 399	|	Kota Semarang	         |
+| 400	|	Kabupaten Seram Bagian Barat	         |
+| 401	|	Kabupaten Seram Bagian Timur	         |
+| 402	|	Kabupaten Serang	         |
+| 403	|	Kota Serang	         |
+| 404	|	Kabupaten Serdang Bedagai	         |
+| 405	|	Kabupaten Seruyan	         |
+| 406	|	Kabupaten Siak	         |
+| 407	|	Kota Sibolga	         |
+| 408	|	Kabupaten Sidenreng Rappang/Rapang	         |
+| 409	|	Kabupaten Sidoarjo	         |
+| 410	|	Kabupaten Sigi	         |
+| 411	|	Kabupaten Sijunjung  Sawah Lunto Sijunjung)	         |
+| 412	|	Kabupaten Sikka	         |
+| 413	|	Kabupaten Simalungun	         |
+| 414	|	Kabupaten Simeulue	         |
+| 415	|	Kota Singkawang	         |
+| 416	|	Kabupaten Sinjai	         |
+| 417	|	Kabupaten Sintang	         |
+| 418	|	Kabupaten Situbondo	         |
+| 419	|	Kabupaten Sleman	         |
+| 420	|	Kabupaten Solok	         |
+| 421	|	Kota Solok	         |
+| 422	|	Kabupaten Solok Selatan	         |
+| 423	|	Kabupaten Soppeng	         |
+| 424	|	Kabupaten Sorong	         |
+| 425	|	Kota Sorong	         |
+| 426	|	Kabupaten Sorong Selatan	         |
+| 427	|	Kabupaten Sragen	         |
+| 428	|	Kabupaten Subang	         |
+| 429	|	Kota Subulussalam	         |
+| 430	|	Kabupaten Sukabumi	         |
+| 431	|	Kota Sukabumi	         |
+| 432	|	Kabupaten Sukamara	         |
+| 433	|	Kabupaten Sukoharjo	         |
+| 434	|	Kabupaten Sumba Barat	         |
+| 435	|	Kabupaten Sumba Barat Daya	         |
+| 436	|	Kabupaten Sumba Tengah	         |
+| 437	|	Kabupaten Sumba Timur	         |
+| 438	|	Kabupaten Sumbawa	         |
+| 439	|	Kabupaten Sumbawa Barat	         |
+| 440	|	Kabupaten Sumedang	         |
+| 441	|	Kabupaten Sumenep	         |
+| 442	|	Kota Sungaipenuh	         |
+| 443	|	Kabupaten Supiori	         |
+| 444	|	Kota Surabaya	         |
+| 445	|	Kota Surakarta  Solo)	         |
+| 446	|	Kabupaten Tabalong	         |
+| 447	|	Kabupaten Tabanan	         |
+| 448	|	Kabupaten Takalar	         |
+| 449	|	Kabupaten Tambrauw	         |
+| 450	|	Kabupaten Tana Tidung	         |
+| 451	|	Kabupaten Tana Toraja	         |
+| 452	|	Kabupaten Tanah Bumbu	         |
+| 453	|	Kabupaten Tanah Datar	         |
+| 454	|	Kabupaten Tanah Laut	         |
+| 455	|	Kabupaten Tangerang	         |
+| 456	|	Kota Tangerang	         |
+| 457	|	Kota Tangerang Selatan	         |
+| 458	|	Kabupaten Tanggamus	         |
+| 459	|	Kota Tanjung Balai	         |
+| 460	|	Kabupaten Tanjung Jabung Barat	         |
+| 461	|	Kabupaten Tanjung Jabung Timur	         |
+| 462	|	Kota Tanjung Pinang	         |
+| 463	|	Kabupaten Tapanuli Selatan	         |
+| 464	|	Kabupaten Tapanuli Tengah	         |
+| 465	|	Kabupaten Tapanuli Utara	         |
+| 466	|	Kabupaten Tapin	         |
+| 467	|	Kota Tarakan	         |
+| 468	|	Kabupaten Tasikmalaya	         |
+| 469	|	Kota Tasikmalaya	         |
+| 470	|	Kota Tebing Tinggi	         |
+| 471	|	Kabupaten Tebo	         |
+| 472	|	Kabupaten Tegal	         |
+| 473	|	Kota Tegal	         |
+| 474	|	Kabupaten Teluk Bintuni	         |
+| 475	|	Kabupaten Teluk Wondama	         |
+| 476	|	Kabupaten Temanggung	         |
+| 477	|	Kota Ternate	         |
+| 478	|	Kota Tidore Kepulauan	         |
+| 479	|	Kabupaten Timor Tengah Selatan	         |
+| 480	|	Kabupaten Timor Tengah Utara	         |
+| 481	|	Kabupaten Toba Samosir	         |
+| 482	|	Kabupaten Tojo Una-Una	         |
+| 483	|	Kabupaten Toli-Toli	         |
+| 484	|	Kabupaten Tolikara	         |
+| 485	|	Kota Tomohon	         |
+| 486	|	Kabupaten Toraja Utara	         |
+| 487	|	Kabupaten Trenggalek	         |
+| 488	|	Kota Tual	         |
+| 489	|	Kabupaten Tuban	         |
+| 490	|	Kabupaten Tulang Bawang	         |
+| 491	|	Kabupaten Tulang Bawang Barat	         |
+| 492	|	Kabupaten Tulungagung	         |
+| 493	|	Kabupaten Wajo	         |
+| 494	|	Kabupaten Wakatobi	         |
+| 495	|	Kabupaten Waropen	         |
+| 496	|	Kabupaten Way Kanan	         |
+| 497	|	Kabupaten Wonogiri	         |
+| 498	|	Kabupaten Wonosobo	         |
+| 499	|	Kabupaten Yahukimo	         |
+| 500	|	Kabupaten Yalimo	         |
+| 501	|	Kota Yogyakarta	         |
 
 ## List ID Provinsi (RatuOngkir)
 | ID | Provinsi |
