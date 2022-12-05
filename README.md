@@ -350,14 +350,15 @@ $value = $rajaOngkir
 ## List ID Provinsi (RatuOngkir)
 | ID | Provinsi |
 | ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+| 1           | Jawa Timur      |
+| 2           | Jawa Tengah      |
 
 ## List ID Kota (RatuOngkir)
 | ID | Kota |
 | ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+| 1     | Kota 1      |
+| 2     | Kota 2      |
+| 3     | Kota 3      |
 
 ## Return Value (sample)
 ### Get Shipping Cost
