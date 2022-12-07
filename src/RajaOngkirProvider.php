@@ -21,7 +21,7 @@ class RajaOngkirProvider extends Provider {
     public function getShippingCost()
     {
         $response = Http::withHeaders([
-            'key' => config('larashipcost.api_key'),
+            'key' => env('RAJAONGKIR_API_KEY', ''),
 
         ])->post($this->url.'starter/cost', [
             'origin' => $this->idKota,
@@ -36,7 +36,7 @@ class RajaOngkirProvider extends Provider {
     public function getAllProvinsi()
     {
         $response = Http::withHeaders([
-            'key' => config('larashipcost.api_key'),
+            'key' => env('RAJAONGKIR_API_KEY', ''),
 
         ])->get('https://api.rajaongkir.com/starter/province');
 
@@ -46,7 +46,7 @@ class RajaOngkirProvider extends Provider {
     public function getProvinsi()
     {
         $response = Http::withHeaders([
-            'key' => config('larashipcost.api_key'),
+            'key' => env('RAJAONGKIR_API_KEY', ''),
 
         ])->get('https://api.rajaongkir.com/starter/province/' . $this->idProvinsi);
 
@@ -56,20 +56,20 @@ class RajaOngkirProvider extends Provider {
     public function getAllKota()
     {
         $response = Http::withHeaders([
-            'key' => config('larashipcost.api_key'),
-  
+            'key' => env('RAJAONGKIR_API_KEY', ''),
+
         ])->get('https://api.rajaongkir.com/starter/city');
-  
+
         return $response->body();
     }
 
     public function getKota()
     {
         $response = Http::withHeaders([
-            'key' => config('larashipcost.api_key'),
-  
+            'key' => env('RAJAONGKIR_API_KEY', ''),
+
         ])->get('https://api.rajaongkir.com/starter/city/' . $this->idKota);
-  
+
         return $response->body();
     }
 }
