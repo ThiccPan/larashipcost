@@ -55,8 +55,8 @@ $builder = new ProviderBuilder();
 $rajaOngkir = $builder
     ->setIdKota(1) // Set Asal Kota berdasarkan ID
     ->setDestination(1) // Set Destinasi berdasarkan ID
-    ->setCourier('jne') // Set Berat Barang
-    ->setWeight(1000) // Set Kurir Barang
+    ->setCourier('jne') // Set Kurir Barang 
+    ->setWeight(1000) // Set Berat Barang
     ->build('rajaongkir'); // Get Ongkos Kirim dengan memberikan tipe provider
 
 if ($rajaOngkir instanceof RajaOngkirProvider) {
