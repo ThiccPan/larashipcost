@@ -7,6 +7,14 @@ use Illuminate\Support\Facades\Http;
 class RatuOngkirProvider extends Provider { 
     protected $url = 'https://636dcc52b567eed48ac95a16.mockapi.io/ratuongkir';
 
+    public function __construct($prov, $origin, $dest, $weight, $courier) {
+        $this->idProvinsi = $prov;
+        $this->idKota = $origin;
+        $this->idDestination = $dest;
+        $this->weight = $weight;
+        $this->courier = $courier;
+    }
+
     public function getShippingCost()
     {
         // set kota asal dan destinasi pengiriman

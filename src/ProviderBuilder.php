@@ -7,7 +7,7 @@ use ThiccPan\Larashipcost\Provider;
 use ThiccPan\Larashipcost\RajaOngkirProvider;
 use ThiccPan\Larashipcost\RatuOngkirProvider;
 
-class ProviderBuilder implements Builder {
+class ProviderBuilder extends Provider implements Builder  {
 
     protected Provider $provider;
     

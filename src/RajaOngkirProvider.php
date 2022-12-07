@@ -6,6 +6,16 @@ use Illuminate\Support\Facades\Http;
 
 class RajaOngkirProvider extends Provider {
 
+    public function __construct($prov, $origin, $dest, $weight, $courier) {
+        $this->idProvinsi = $prov;
+        $this->idKota = $origin;
+        $this->idDestination = $dest;
+        $this->weight = $weight;
+        $this->courier = $courier;
+    }
+
+    // public function __construct(){}
+
     protected $url = 'https://api.rajaongkir.com/';
 
     public function getShippingCost()
