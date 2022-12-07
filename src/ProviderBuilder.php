@@ -1,5 +1,7 @@
 <?php
 
+namespace ThiccPan\Larashipcost;
+
 use ThiccPan\Larashipcost\Builder;
 use ThiccPan\Larashipcost\Provider;
 use ThiccPan\Larashipcost\RajaOngkirProvider;
