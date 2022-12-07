@@ -4,51 +4,8 @@ namespace ThiccPan\Larashipcost;
 
 use Illuminate\Support\Facades\Http;
 
-class RatuOngkirProvider extends Provider implements ProviderBuilder, ProvinsiBuilder, KotaBuilder
-{
+class RatuOngkirProvider extends Provider { 
     protected $url = 'https://636dcc52b567eed48ac95a16.mockapi.io/ratuongkir';
-
-    public function setIdProvinsi($idProvinsi): self
-    {
-        $this->idProvinsi = $idProvinsi;
-
-        return $this;
-    }
-
-    public function setIdKota($idKota): self
-    {
-        $this->idKota = $idKota;
-
-        return $this;
-    }
-
-    public function setOrigin($idDestination): self
-    {
-        $this->idDestination = $idDestination;
-
-        return $this;
-    }
-
-    public function setDestination($idDestination): self
-    {
-        $this->idDestination = $idDestination;
-
-        return $this;
-    }
-
-    public function setWeight($weight): self
-    {
-        $this->weight = $weight;
-
-        return $this;
-    }
-
-    public function setCourier($courier): self
-    {
-        $this->courier = $courier;
-
-        return $this;
-    }
 
     public function getShippingCost()
     {

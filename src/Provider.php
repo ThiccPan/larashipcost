@@ -2,7 +2,7 @@
 
 namespace ThiccPan\Larashipcost;
 
-interface ProviderBuilder
+interface Builder
 {
     public function setIdProvinsi($idProvinsi): self;
 
@@ -14,7 +14,7 @@ interface ProviderBuilder
 
     public function setCourier($courier): self;
 
-    public function getShippingCost();
+    public function build($provider): Provider;
 }
 
 abstract class Provider
@@ -28,6 +28,8 @@ abstract class Provider
     protected $weight;
 
     protected $courier;
+
+    public function getShippingCost() {}
 }
 
 interface ProvinsiBuilder

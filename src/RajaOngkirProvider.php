@@ -4,44 +4,9 @@ namespace ThiccPan\Larashipcost;
 
 use Illuminate\Support\Facades\Http;
 
-class RajaOngkirProvider extends Provider implements ProviderBuilder, ProvinsiBuilder, KotaBuilder {
+class RajaOngkirProvider extends Provider {
 
     protected $url = 'https://api.rajaongkir.com/';
-
-    public function setIdProvinsi($idProvinsi): self
-    {
-        $this->idProvinsi = $idProvinsi;
-
-        return $this;
-    }
-
-    public function setIdKota($idKota): self
-    {
-        $this->idKota = $idKota;
-
-        return $this;
-    }
-
-    public function setDestination($idDestination): self
-    {
-        $this->idDestination = $idDestination;
-
-        return $this;
-    }
-
-    public function setWeight($weight): self
-    {
-        $this->weight = $weight;
-
-        return $this;
-    }
-
-    public function setCourier($courier): self
-    {
-        $this->courier = $courier;
-
-        return $this;
-    }
 
     public function getShippingCost()
     {
@@ -58,7 +23,7 @@ class RajaOngkirProvider extends Provider implements ProviderBuilder, ProvinsiBu
         return $response->body();
     }
 
-    public function getProvinsi()
+    public function getAllProvinsi()
     {
         $response = Http::withHeaders([
             'key' => config('larashipcost.api_key'),
@@ -68,12 +33,32 @@ class RajaOngkirProvider extends Provider implements ProviderBuilder, ProvinsiBu
         return $response->body();
     }
 
-    public function getKota()
+    public function getProvinsi()
+    {
+        $response = Http::withHeaders([
+            'key' => config('larashipcost.api_key'),
+
+        ])->get('https://api.rajaongkir.com/starter/province/' . $this->idProvinsi);
+
+        return $response->body();
+    }
+
+    public function getAllKota()
     {
         $response = Http::withHeaders([
             'key' => config('larashipcost.api_key'),
   
         ])->get('https://api.rajaongkir.com/starter/city');
+  
+        return $response->body();
+    }
+
+    public function getKota()
+    {
+        $response = Http::withHeaders([
+            'key' => config('larashipcost.api_key'),
+  
+        ])->get('https://api.rajaongkir.com/starter/city/' . $this->idKota);
   
         return $response->body();
     }
