@@ -8,7 +8,7 @@ Larashipcost adalah package wrapper yang berfungsi untuk mendapatkan perhitungan
 
 ## Instalasi
 
-Untuk menggunakan package:
+Panduan menggunakan package:
 
 ```bash
 composer require thiccpan/larashipcost
