@@ -14,6 +14,11 @@ Untuk menggunakan package:
 composer require thiccpan/larashipcost
 ```
 
+Tambahkan API_KEY_RAJAONGKIR pada file ```.env``` seperti berikut:
+```bash
+RAJAONGKIR_API_KEY="API_KEY"
+```
+
 ## Usage
 <table>
 <tr>
