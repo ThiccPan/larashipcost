@@ -51,13 +51,17 @@ new RatuOngkirProvider();
 
 ### Sample Usage
 ```php
-$rajaOngkir = new RajaOngkirProvider;
-$value = $rajaOngkir
-        ->setIdKota(12) // Set Asal Kota berdasarkan ID
-        ->setDestination(114) // Set Destinasi berdasarkan ID
-        ->setWeight(1700) // Set Berat Barang
-        ->setCourier("jne") // Set Kurir Barang
-        ->getShippingCost(); // Get Ongkos Kirim
+$builder = new ProviderBuilder();
+$rajaOngkir = $builder
+    ->setIdKota(1) // Set Asal Kota berdasarkan ID
+    ->setDestination(1) // Set Destinasi berdasarkan ID
+    ->setCourier('jne') // Set Berat Barang
+    ->setWeight(1000) // Set Kurir Barang
+    ->build('rajaongkir'); // Get Ongkos Kirim dengan memberikan tipe provider
+
+if ($rajaOngkir instanceof RajaOngkirProvider) {
+    return $rajaOngkir->getShippingCost();
+}
 ```
 
 ## List ID Provinsi [RajaOngkir](https://rajaongkir.com)
