@@ -407,12 +407,6 @@ if ($rajaOngkir instanceof RajaOngkirProvider) {
   }
 }
 ```
-### Get Provinsi
-```json
-{
-    
-}
-```
 
 ## Credits
 
